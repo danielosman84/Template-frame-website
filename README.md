@@ -1,66 +1,21 @@
-# Rouleur Co. Site
+# Next.js Template – Vehicle Hire Website
 
-A Next.js website for Rouleur Co.
+This repository is a reusable template for building fast, secure, SEO-optimized websites for vehicle rental and service businesses.
 
-## Requirements
+Built with:
+- ✅ [Next.js](https://nextjs.org/) – React-based framework
+- ✅ [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
+- ✅ [Vercel](https://vercel.com/) – Seamless deployment platform
 
-- **Node.js** v18 or higher
-- **npm** (included with Node.js)
+---
 
-## Installation
+## 🚀 Getting Started
 
-Clone the repository and install dependencies:
+1. **Use this template**
+   - Click the green “Use this template” button on GitHub
+   - Create a new repository for your client/project
 
-```bash
-npm install
-```
-
-## Development
-
-Start the development server with hot reloading:
-
-```bash
-npm run dev
-```
-
-Open `http://localhost:3000` in your browser to view the site.
-
-## Building for Production
-
-Create an optimized production build:
-
-```bash
-npm run build
-```
-
-Then start the production server:
-
-```bash
-npm start
-```
-
-## Formspree Configuration
-
-The contact form uses Formspree. Update the `action` attribute in
-`components/HomePage.js` with your Formspree form endpoint:
-
-```jsx
-<form action="https://formspree.io/f/your-form-id" method="POST">
-  ...
-</form>
-```
-
-Replace `https://formspree.io/f/your-form-id` with the URL provided by Formspree.
-
-## Tailwind CSS
-
-Tailwind CSS is configured via `tailwind.config.js` and processed by
-PostCSS. Styles are loaded from `styles/globals.css`.
-
-## Browser Support
-
-Modern browsers are targeted by default. Legacy browsers like IE11 are
-excluded to keep the JavaScript output small and avoid unnecessary
-polyfills. See `.browserslistrc` for the exact list of supported
-browsers.
-
+2. **Clone your new repo**
+   ```bash
+   git clone https://github.com/yourusername/client-site.git
+   cd client-site
